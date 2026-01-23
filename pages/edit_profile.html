@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Profile | Water Plus</title>
+  <link rel="stylesheet" href="../CSS/edit_profile.css">
+</head>
+<body>
+
+<div class="profile-container">
+  <div class="profile-card">
+    <h2>Edit Profile</h2>
+    <p class="subtitle">Update your personal details</p>
+
+    <!-- STATIC FORM (backend later) -->
+    <form action="../pages/my_profile.html" method="get">
+
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="input-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number">
+      </div>
+
+      <div class="input-group">
+        <label>Address</label>
+        <textarea placeholder="Enter your address"></textarea>
+      </div>
+
+      <div class="btn-group">
+        <button type="submit">Save Changes</button>
+        <a href="../pages/my_profile.html" class="cancel-btn">Cancel</a>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

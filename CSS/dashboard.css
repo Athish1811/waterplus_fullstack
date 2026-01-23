@@ -18,7 +18,6 @@ body {
   justify-content: center;
 }
 
-/* Cards */
 .card, .profile-card, .status-box {
   background: white;
   padding: 20px;
@@ -27,7 +26,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Status */
+
 .status {
   display: inline-block;
   margin-top: 10px;
@@ -50,7 +49,7 @@ body {
   font-weight: bold;
 }
 
-/* Button */
+
 .btn {
   margin-top: 15px;
   padding: 10px;
@@ -82,4 +81,99 @@ body {
 .home-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f9ff;
+}
+
+
+.header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #fff;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+
+.dashboard {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.profile-card {
+  background: #fff;
+  width: 380px;
+  padding: 30px 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+.profile-card p {
+  margin: 10px 0;
+}
+
+
+.card-btn {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 0;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+
+.back-btn {
+  background: #ccc;
+  color: #333;
+}
+
+.back-btn:hover {
+  background: #b3b3b3;
+}
+
+ .home-btn {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #0072ff;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+
+}
+
+.home-btn:hover {
+box-shadow: 0 8px 20px rgba(0, 114, 255, 0.4);
+color: #fff;
+transform: translateY(-2px);
 }
